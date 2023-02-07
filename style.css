@@ -1,0 +1,187 @@
+html{
+    margin: 0 ;
+    padding: 0 ; 
+    box-sizing: border-box;
+}
+
+
+body {
+	background: linear-gradient(-45deg, #ff0080, #ff00bf, #e500dd, #b200e4, #166bff, #1b77e8);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.klaag {
+    font-family:Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+     
+}
+
+.table-wrapper{
+    margin: 20px 100px 100px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+  font-family:Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 10px;
+}
+
+.fl-table td {
+    border-right: 0.3px solid #f8f8f8;
+    
+}
+.fl-table thead th {
+    color: #ffffff;
+    background: #4f575e;
+}
+
+
+.fl-table tr:nth-child(even) {
+    background:#f7dafcbb;
+}
+  
+
+
+
+
+.login-form-wrap {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+  .login-form {
+  padding: 60px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border: none;
+  margin-bottom:50px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #3ca9e2;
+}
+
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  background-color: #e97bf3;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: #b624c3;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  
+}
+
+
+.button {
+  border: none;
+  display: block;
+  background-color: #e97bf3;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 15px;
+}
+
+.del {
+  background-color: white;
+  font-family:Verdana, sans-serif;
+  color: black;
+  border: 2px solid #e97bf3;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.del:hover {
+  background-color: #e97bf3;
+  color: white;
+}
+
+body {
+  padding: 1rem;
+}
+  
